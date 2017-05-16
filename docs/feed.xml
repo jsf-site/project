@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JavaServer Faces.org</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 15 May 2017 22:41:17 +0700</pubDate>
+    <lastBuildDate>Mon, 15 May 2017 22:41:17 +0700</lastBuildDate>
+    <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>JSFDays 2010</title>
+        <description>&lt;p&gt;JSFDays is the primary European conference for JavaServer Faces and Java EE technology, hosted by IRIAN Solutions, the key sponsor of MyFaces. Many of the layers in the JSF industry will be speaking at this conference.&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.jsfdays.com/&quot;&gt;JSFDays&lt;/a&gt;
+Austria Center Vienna
+IAKW - AG 
+Bruno-Kreisky-Platz 1
+A-1220 Vienna
+Austria&lt;/p&gt;
+</description>
+        <pubDate>Thu, 10 Dec 2009 15:19:12 +0700</pubDate>
+        <link>http://localhost:4000/events/2009/12/10/jsfdays-2010.html</link>
+        <guid isPermaLink="true">http://localhost:4000/events/2009/12/10/jsfdays-2010.html</guid>
+        
+        
+        <category>events</category>
+        
+      </item>
+    
+      <item>
+        <title>The Second JSF Summit</title>
+        <description>&lt;p&gt;Many of the JSF designers, contributors, backers and those eager to learn will be getting together Dec 1 - 4 in Orlando, FL for a week-long conference dedicated to JSF called JSF Summit. Speakers include JSF developers, expert group and community members, as well as component authors, opensource advocates.&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://jsfsummit.com/&quot;&gt;JSF Summit&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Dec 1 - 4, 2009
+Loews Portofino Hotel @ Universal Orlando
+5601 Universal Boulevard
+Orlando, FL 32819&lt;/p&gt;
+</description>
+        <pubDate>Wed, 11 Nov 2009 15:19:12 +0700</pubDate>
+        <link>http://localhost:4000/events/2009/11/11/the-second-jsf-summit.html</link>
+        <guid isPermaLink="true">http://localhost:4000/events/2009/11/11/the-second-jsf-summit.html</guid>
+        
+        
+        <category>events</category>
+        
+      </item>
+    
+  </channel>
+</rss>

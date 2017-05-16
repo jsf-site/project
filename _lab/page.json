@@ -1,0 +1,25 @@
+[
+  {
+    "layout": "default",
+    "title": "Contact",
+    "section_id": "contact",
+    "content": "<div class='full parallax' style='background-image: url(../images/@stock/contact-header-bg.jpg); color: #fff;'>\n <div class='row'>\n <div class='large-12 columns'>\n <div class=\"mod modSectionHeader big\">\n <div class=\"special-title centered-text\">\n <h2 style=\"color: #fff;\">Contact Us</h2>\n </div>\n \n <h3 class='centered-text' style='color: #fff'>Drop by or send an email to us</h3>\n \n</div>\n </div>\n </div>\n <div class='four spacing'></div>\n</div>\n\n <div class='full'>\n <div class='row'>\n <div class='medium-8 columns'>\n <div class='form'>\n <div class='row'>\n <form id='contact_form' method='POST'>\n <div class='large-12 columns'>\n <p id='thanks' style='display: none;'>\n Thanks for contacting us, we'll be in touch soon!\n </p>\n </div>\n <div class='medium-12 columns'>\n <input class='required' name='name' placeholder='NAME' type='text'>\n <input class='required email' name='email' placeholder='EMAIL' type='text'>\n <input class='required' name='subject' placeholder='SUBJECT' type='text'>\n <textarea class='required' name='message' placeholder='MESSAGE'></textarea>\n <input class='button white' type='submit'>\n </div>\n </form>\n </div>\n </div>\n <div class='two spacing'></div>\n </div>\n <div class='medium-4 columns'>\n <div class='contact-details'>\n <h4>Our location:</h4>\n <p>41 Dean Street, London, UK</p>\n <h4>Our Phone:</h4>\n <p>+86 (03) 9810 4612</p>\n <h4>Fax:</h4>\n <p>+6102 236338 5456</p>\n <h4>Our Email:</h4>\n <p>info@devoll-team.com</p>\n </div>\n </div>\n </div>\n </div>\n <div class='four spacing'></div>\n</div>",
+    "dir": "/orig-pages/",
+    "name": "contact.html",
+    "path": "orig-pages/contact.html",
+    "url": "/orig-pages/contact.html"
+  },
+
+  {
+    "layout": "page",
+    "title": "Documentation",
+    "tagline": "May the source be with you",
+    "section_id": "documentation",
+    "permalink": "documentation",
+    "content": "<h2 id=\"ui-development-docs\">UI Development Docs:</h2>\n\n<ul>\n <li><a href=\"https://javaserverfaces.dev.java.net/nonav/docs/2.0/pdldocs/facelets/index.html\">Facelets - Tag Library Documentation</a> (TLDDoc, VDL)</li>\n <li><a href=\"https://javaserverfaces.dev.java.net/nonav/docs/2.0/javadocs/index.html\">Java - API Documentation</a> (JavaDoc)</li>\n <li><a href=\"https://javaserverfaces.dev.java.net/nonav/docs/2.0/jsdocs/index.html\">JavaScript - API Documentation</a> (jsDoc)</li>\n</ul>\n\n<p>Looking for an older version of the API documentation? See the \n<a href=\"http://java.sun.com/javaee/javaserverfaces/reference/api/index.html\">complete archive of JSF API Specifications</a>.</p>\n\n<h2 id=\"issues-and-enhancements\">Issues and Enhancements:</h2>\n\n<ul>\n <li><a href=\"https://javaserverfaces-spec-public.dev.java.net/servlets/ProjectIssues\">Specification Issue Tracker</a></li>\n <li><a href=\"http://archives.java.sun.com/jsr-314-open.html\">Expert Group (EG) Mailinglist Archives</a></li>\n <li><a href=\"http://wiki.jcp.org/boards/index.php?b=jsr-314-public\">Specification Community Forums</a></li>\n</ul>\n\n<h2 id=\"how-jsf-works\">How JSF Works:</h2>\n\n<ul>\n <li><a href=\"http://jcp.org/aboutJava/communityprocess/final/jsr314/index.html\">Specification Document</a> (JSR-314) <strong>[warning]</strong> extremely technical</li>\n</ul>\n\n",
+    "dir": "/",
+    "name": "documentation.md",
+    "path": "pages/documentation.md",
+    "url": "/documentation"
+  }
+]

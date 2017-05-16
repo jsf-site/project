@@ -1,0 +1,60 @@
+---
+layout: default
+---
+
+<div class='full parallax' style='background-image: url(../images/@stock/about-us.jpg); color: #fff;'>
+  <div class='row'>
+    <div class='twelve columns'>
+      {% include section-header.html title=page.title color="#fff" tagline=page.tagline class="big" %}
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>
+
+<div class='full'>
+  <div class='row'>
+    <div class='small-12 medium-12 large-12 columns'>
+      {{ content }}
+    </div>
+  </div>
+  <div class='spacing'></div>
+  <div class='row'>
+    {% for book in site.data.books %}
+      <div class='small-12 medium-6 large-6 columns'>
+        <div class='mod book-card'>
+          <div class='book'>
+            <img class="book" alt="{{book.title}}" src="{{book.cover}}" align="left"/>
+            <h4>{{book.title}}</h4>
+            <p>By {{book.author}}, published by {{book.publisher}}</p>
+            <p>{{book.desc}}</p>
+            <ul>
+              <li><b>ISBN-10:</b>{{book.isbn-10}}</li>
+              <li><b>ISBN-13:</b>{{book.isbn-13}}</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+  <div class='spacing'></div>
+  <div class='row'>
+    <div class='small-12 medium-12 large-12 columns'>
+      <p>There are many other books on JSF available. For a complete listing of books about JSF, UI component libraries
+        and extension frameworks, consult the
+        <a href="http://www.jsfcentral.com/reading/books/" rel="nofollow">JSF Central book catalog</a>.</p>
+    </div>
+  </div>
+</div>
+
+<div class='full'>
+  <div class='row'>
+    <p class="trademark">Java and JavaServer Faces are trademarks or registered trademarks of Oracle and/or its affiliates.
+
+    http://www.javaserverfaces.org is maintained and operated by members of the JSR-314 (JSF 2.0) Expert Group and
+    dedicated community contributors.
+    Got a suggestion to make javaserverfaces.org better? Is there a page we forgot? Please post your suggestion in the 
+      <a href="http://wiki.jcp.org/boards/index.php?b=jsr-314-public" target="_blank">community forums</a>.</p>
+  </div>
+</div>
+
+

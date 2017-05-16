@@ -1,0 +1,30 @@
+- name: Home
+  path: index.html
+  section_id: home
+- name: Get Started
+  path: get-started
+  section_id: get-started
+- name: Communicate
+  path: communicate.html
+  section_id: communicate
+  children:
+      - name: Issue Trackers
+        path: issue-trackers
+      - name: Blogs
+        path: blogs
+      - name: Give Feedback
+        path: feedback
+- name: Documentation
+  path: documentation
+  section_id: documentation
+- name: Specification
+  path: specification
+  section_id: specification
+  children:
+    - name: Expert Group
+      path: expert-group
+    - name: Related Specifications
+      path: related-specifications
+- name: News
+  path: news/
+  section_id: news

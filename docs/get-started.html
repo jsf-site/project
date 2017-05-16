@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Get Started</title>
+  <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+">
+
+  <link rel="stylesheet" href="/css/foundation.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/fontello.css">
+  <link rel="stylesheet" href="/css/font-awesome.css">
+  <script src="/javascripts/libs.js" type="text/javascript"></script>
+  <script>
+    // terrificjs bootstrap
+    (function($) {
+        $(document).ready(function() {
+            var $page = $('body');
+            var config = {
+              dependencyPath: {
+                plugin: 'javascripts/'
+              }
+            }
+            var application = new Tc.Application($page, config);
+            application.registerModules();
+            application.start();
+        });
+    })(Tc.$);
+  </script>
+  <link href="http://fonts.googleapis.com/css?family=Raleway:400,700,300" media="screen" rel="stylesheet" type="text/css">
+  <script src="/javascripts/masonry.pkgd.js" type="text/javascript"></script>
+  <script src="/javascripts/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+  <script src="/javascripts/slick.min.js" type="text/javascript"></script>
+  <script src="/javascripts/json2.js" type="text/javascript"></script>
+  <link rel="canonical" href="http://localhost:4000/get-started">
+  <link rel="alternate" type="application/rss+xml" title="JavaServer Faces.org" href="http://localhost:4000/feed.xml">
+</head>
+
+
+  <body>
+
+    <div class="contain-to-grid sticky">
+  <nav class="top-bar" data-options="sticky_on: large" data-topbar="">
+    <ul class="title-area">
+      <li class="name">
+        <h1>
+          <a href="http://localhost:4000/index.html">
+            <img alt="" src="http://localhost:4000/images/logo-bordered.png">
+          </a>
+        </h1>
+      </li>
+      <li class="toggle-topbar menu-icon">
+        <a href="#">Menu</a>
+      </li>
+    </ul>
+    <section class="top-bar-section">
+      <ul class="right">
+        
+          
+
+          
+            <li class="">
+              <a href="http://localhost:4000/index.html">Home</a>
+            </li>
+          
+        
+          
+
+          
+            <li class="active">
+              <a href="http://localhost:4000/get-started">Get Started</a>
+            </li>
+          
+        
+          
+
+          
+            <li class="has-dropdown ">
+              <a href="http://localhost:4000/communicate.html">Communicate</a>
+              <ul class="dropdown">
+                
+                  <li>
+                    <a href="http://localhost:4000/issue-trackers">Issue Trackers</a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:4000/blogs">Blogs</a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:4000/feedback">Give Feedback</a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+          
+
+          
+            <li class="">
+              <a href="http://localhost:4000/documentation">Documentation</a>
+            </li>
+          
+        
+          
+
+          
+            <li class="has-dropdown ">
+              <a href="http://localhost:4000/specification">Specification</a>
+              <ul class="dropdown">
+                
+                  <li>
+                    <a href="http://localhost:4000/expert-group">Expert Group</a>
+                  </li>
+                
+                  <li>
+                    <a href="http://localhost:4000/related-specifications">Related Specifications</a>
+                  </li>
+                
+              </ul>
+            </li>
+          
+        
+          
+
+          
+            <li class="">
+              <a href="http://localhost:4000/news/">News</a>
+            </li>
+          
+        
+      </ul>
+    </section>
+  </nav>
+</div>
+
+    <div id="main" role="main">
+      <div class="full parallax" style="background-image: url(../images/@stock/about-us.jpg); color: #fff;">
+  <div class="row">
+    <div class="twelve columns">
+      <div class="mod modSectionHeader big">
+  <div class="special-title centered-text">
+    <h2 style="color: #fff;">Get Started</h2>
+  </div>
+  
+    <h3 class="centered-text" style="color: #fff">First steps in JavaServer Faces</h3>
+  
+</div>
+    </div>
+  </div>
+  <div class="four spacing"></div>
+</div>
+
+<div class="full">
+  <div class="row">
+    <div class="small-12 medium-12 large-12 columns">
+      <p>The fastest way to get started with a JSF project is to use a <a href="http://maven.apache.org/plugins/maven-archetype-plugin/">Maven archetype</a>. 
+There are many available, three of which are highlighted on this page.</p>
+
+<ol>
+  <li><a href="http://www.javaserverfaces.com/get-started#TOC-Creating-a-web-project-and-adding-J">Standalone JSF 2</a></li>
+  <li><a href="http://www.javaserverfaces.com/get-started#TOC-Creating-a-JSF-2-and-CDI-project">JSF 2 with CDI (default for the Java EE 6 platform)</a></li>
+  <li><a href="http://www.javaserverfaces.com/get-started#TOC-Creating-a-JSF-2-and-Spring-project">JSF 2 with Spring</a></li>
+</ol>
+
+<p>You are encouraged to study all three options and decide for yourself which one works best for you.</p>
+
+<p>First, make sure you have <a href="http://maven.apache.org/download.html">downloaded and installed</a> Maven 2. Then, proceed 
+with the steps below to create a project that uses JSF 2.</p>
+
+<p>Note: Maven can execute the project on an embedded web container using plugins, so you don’t have to grab a standalone 
+web container right away. But eventually you will need one. You can use a 
+<a href="http://java.sun.com/javaee/overview/compatibility-javaee5.jsp">Java EE application server</a>, a Servlet container 
+(such as Tomcat or Jetty), or the <a href="http://www.springsource.org/dmserver">Spring dm Server</a>.</p>
+
+<p>** Before you Begin: For the purposes of this tutorial, we recommend using either 
+<a href="http://www.jboss.org/tools">JBoss Tools for Eclipse</a>, 
+<a href="http://java.sun.com/javaee/downloads/index.jsp">GlassFish Tools Bundle for Eclipse</a>, 
+or <a href="http://netbeans.org/downloads/">NetBeans with GlassFish</a>.</p>
+
+<h2 id="creating-a-web-project-and-adding-jsf-2">Creating a web project and adding JSF 2</h2>
+
+<ol>
+  <li>
+    <p>Navigate to a folder where you would like to create your new project. 
+(The ‘projectname’ chosen in the next step will be the name of the root project folder.)</p>
+  </li>
+  <li>
+    <p>Type the following command in a terminal. This will create a project using the Maven webapp archetype; be sure 
+to customize the <strong>groupId</strong> and <strong>artifactId</strong> values to match your organization and project name as desired:</p>
+
+    <div class="highlighter-rouge">
+<pre class="highlight"><code>mvn archetype:create -D**groupId**=com.mycompany.projectname -D**artifactId**=projectname -DarchetypeArtifactId=maven-archetype-webapp
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>Add the JSF dependencies to your Maven POM file, /pom.xml, according to which 
+<a href="http://www.javaserverfaces.com/download">JSF implementation</a> you choose. The Mojarra implementation is shown here:</p>
+
+    <div class="highlighter-rouge">
+<pre class="highlight"><code>&lt;repositories&gt;
+    &lt;repository&gt;  
+        &lt;id&gt;maven2-repository.dev.java.net&lt;/id&gt;  
+        &lt;name&gt;Java.net Repository for Maven&lt;/name&gt;  
+        &lt;url&gt;http://download.java.net/maven/2&lt;/url&gt;  
+    &lt;/repository&gt;  
+&lt;/repositories&gt;
+        
+&lt;dependencies&gt;
+    &lt;!-- Option 1: Use if deploying to a Java EE application server (GlassFish, JBoss AS, etc) --&gt;  
+    &lt;dependency&gt;  
+        &lt;groupId&gt;javax.faces&lt;/groupId&gt;  
+        &lt;artifactId&gt;jsf-api&lt;/artifactId&gt;  
+        &lt;version&gt;2.0&lt;/version&gt;  
+        &lt;scope&gt;provided&lt;/scope&gt;  
+    &lt;/dependency&gt;
+       
+    &lt;!-- Option 2: Use if deploying to a servlet container (Tomcat, Jetty, etc) --&gt;  
+    &lt;dependency&gt;  
+        &lt;groupId&gt;com.sun.faces&lt;/groupId&gt;  
+        &lt;artifactId&gt;jsf-api&lt;/artifactId&gt;  
+        &lt;version&gt;2.0.2&lt;/version&gt;  
+        &lt;scope&gt;runtime&lt;/scope&gt;  
+    &lt;/dependency&gt;  
+    &lt;dependency&gt;  
+        &lt;groupId&gt;com.sun.faces&lt;/groupId&gt;  
+        &lt;artifactId&gt;jsf-impl&lt;/artifactId&gt;  
+        &lt;version&gt;2.0.2&lt;/version&gt;  
+        &lt;scope&gt;runtime&lt;/scope&gt;  
+    &lt;/dependency&gt;
+&lt;/dependencies&gt;  
+
+&lt;build&gt;  
+    &lt;plugins&gt;  
+        &lt;plugin&gt;  
+            &lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;  
+            &lt;artifactId&gt;maven-compiler-plugin&lt;/artifactId&gt;  
+            &lt;version&gt;2.0.2&lt;/version&gt;  
+            &lt;configuration&gt;  
+                 &lt;source&gt;1.5&lt;/source&gt;  
+                 &lt;target&gt;1.5&lt;/target&gt;  
+                 &lt;encoding&gt;UTF-8&lt;/encoding&gt;  
+            &lt;/configuration&gt;  
+        &lt;/plugin&gt;  
+    &lt;/plugins&gt;  
+&lt;/build&gt;
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>For Eclipse Users: Do not use the New Project wizard. Run the following command, then <strong>import</strong> the root project 
+folder into the Eclipse workspace directly: (File -&gt; Import -&gt; Existing Projects into Workspace)</p>
+
+    <div class="highlighter-rouge">
+<pre class="highlight"><code>mvn eclipse:eclipse -Dwtpversion=2.0
+</code></pre>
+    </div>
+
+    <p>This generates Eclipse .project, .settings, and .classpath files for you automatically. After running the command above, 
+the project will be ready for import. <strong>You will need to re-run this command every time the pom.xml file is modified.</strong></p>
+
+    <p><strong>For NetBeans/IntelliJ Users:</strong> You should be able to import the project root folder directly, as a Maven project.</p>
+  </li>
+  <li>
+    <p>Add the Faces Servlet and mapping to /src/main/webapp/WEB-INF/web.xml:</p>
+
+    <div class="highlighter-rouge">
+<pre class="highlight"><code><span class="cp">&lt;!DOCTYPE web-app PUBLIC 
+  "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"  
+  "http://java.sun.com/dtd/web-app_2_3.dtd" &gt;</span>  
+        
+<span class="nt">&lt;web-app&gt;</span>  
+    <span class="nt">&lt;display-name&gt;</span>Archetype Created Web Application<span class="nt">&lt;/display-name&gt;</span>  
+
+    <span class="nt">&lt;context-param&gt;</span>  
+        <span class="nt">&lt;param-name&gt;</span>javax.faces.PROJECT_STAGE<span class="nt">&lt;/param-name&gt;</span>  
+        <span class="nt">&lt;param-value&gt;</span>Development<span class="nt">&lt;/param-value&gt;</span>  
+    <span class="nt">&lt;/context-param&gt;</span>  
+
+    <span class="nt">&lt;servlet&gt;</span>  
+        <span class="nt">&lt;servlet-name&gt;</span>Faces Servlet<span class="nt">&lt;/servlet-name&gt;</span>  
+        <span class="nt">&lt;servlet-class&gt;</span>javax.faces.webapp.FacesServlet<span class="nt">&lt;/servlet-class&gt;</span>  
+    <span class="nt">&lt;/servlet&gt;</span>  
+    <span class="nt">&lt;servlet-mapping&gt;</span>  
+        <span class="nt">&lt;servlet-name&gt;</span>Faces Servlet<span class="nt">&lt;/servlet-name&gt;</span>  
+        <span class="nt">&lt;url-pattern&gt;</span>*.jsf<span class="nt">&lt;/url-pattern&gt;</span>  
+    <span class="nt">&lt;/servlet-mapping&gt;</span>  
+
+<span class="nt">&lt;/web-app&gt;</span>  
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>Create your first JSF managed bean: /src/main/java/WelcomeBean.java</p>
+
+    <div class="highlighter-rouge">
+<pre class="highlight"><code>import javax.faces.bean.ManagedBean;
+        
+@ManagedBean(name = "welcome", eager = true)  
+public class WelcomeBean {
+        
+    public WelcomeBean() {  
+        System.out.println("WelcomeBean instantiated");  
+    }  
+    public String getMessage() {  
+        return "I'm alive!";  
+    }  
+}
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>Create your first view template: /src/main/webapp/home.xhtml</p>
+
+    <div class="highlighter-rouge">
+<pre class="highlight"><code><span class="cp">&lt;!DOCTYPE html PUBLIC 
+  "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;</span>
+            
+    <span class="nt">&lt;html</span> <span class="na">xmlns=</span><span class="s">"http://www.w3.org/1999/xhtml"</span><span class="nt">&gt;</span>  
+        <span class="nt">&lt;head&gt;</span>  
+            <span class="nt">&lt;title&gt;</span>Hello JSF 2!<span class="nt">&lt;/title&gt;</span>  
+        <span class="nt">&lt;/head&gt;</span>  
+        <span class="nt">&lt;body&gt;</span>  
+           #{welcome.message}  
+        <span class="nt">&lt;/body&gt;</span>  
+    <span class="nt">&lt;/html&gt;</span>
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>Build the project then deploy target/myproject.war to a Java EE application server or Servlet container. 
+(Adjust the scope of the JSF dependencies depending on which environment you are targeting).</p>
+
+    <div class="highlighter-rouge">
+<pre class="highlight"><code>mvn package
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>Access http://localhost:8080/projectname/home.jsf (the port will vary depending on your server settings).</p>
+
+    <p>You should see, “I’m alive!”</p>
+
+    <p>Don’t take off yet! In the example above, you’ll notice that we’re using the <strong><a href="https://github.com/ManagedBean" class="user-mention">@ManagedBean</a></strong> annotation from 
+JSF 2 to create the managed bean. If you’re targeting the native Java EE 6 platform, you’re strongly encouraged 
+to leverage the new platform-wide managed bean and the services provided by JSR-299: Contexts and Dependency 
+Injection for the Java EE platform (CDI).</p>
+
+    <p>Follow the next tutorial to get started with this new stack.</p>
+  </li>
+</ol>
+
+<h2 id="creating-a-jsf-2-and-cdi-project">
+<a name="TOC-Creating-a-JSF-2-and-CDI-project"></a>Creating a JSF 2 and CDI project</h2>
+
+<p>We’re going to go back to the top and create a new project that uses both JSF 2 <em>and</em> CDI, this time using an 
+archetype prepared by the <a href="http://seamframework.org/Documentation/WeldQuickstartForMavenUsers">Weld community</a>. 
+We’ll be creating a project that targets a Java EE 6 application server (e.g., GlassFish V3, JBoss AS 6, etc), 
+but there is also an archetype for running JSF 2 and CDI and a Servlet container. 
+See <a href="http://seamframework.org/Documentation/WeldQuickstartForMavenUsers">this guide</a> for details.</p>
+
+<p>Let’s get started.</p>
+
+<ol>
+  <li>
+    <p>Create a project using the weld-jsf-jee-minimal archetype, customizing the groupId and artifactId values to match 
+your organization and project name as desired:<font color="#006000" face="Courier New"></font></p>
+
+    <div class="highlighter-rouge">
+<pre class="highlight"><code>mvn archetype:generate -DgroupId=com.mycompany.projectname -DartifactId=projectname 
+-DarchetypeGroupId=org.jboss.weld.archetypes -DarchetypeArtifactId=weld-jsf-jee-minimal 
+-DarchetypeVersion=1.0.0-BETA1
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>Observe your first CDI bean: /src/main/java/com/mycompany/projectname/HelloWorld.java (portions shown here)</p>
+
+    <div class="highlighter-rouge">
+<pre class="highlight"><code>import javax.annotation.PostConstruct;
+import javax.enterprise.context.RequestScoped;  
+import javax.inject.Named;  
+        
+@Named  
+@RequestScoped  
+public class HelloWorld {  
+    private String text = "Hello World!";  
+
+    @PostConstruct  
+    public void initialize() {  
+        System.out.println(HelloWorld.class.getSimpleName() + " was constructed");  
+    }  
+
+    public String getText() {  
+        return text;  
+    }  
+}
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>Observe the home page view template: /src/main/webapp/home.xhtml (portions shown here)</p>
+
+    <div class="highlighter-rouge">
+<pre class="highlight"><code>&lt;ui:composition xmlns="http://www.w3.org/1999/html"
+    xmlns:ui="http://java.sun.com/jsf/facelets"  
+    xmlns:f="http://java.sun.com/jsf/core"  
+    xmlns:h="http://java.sun.com/jsf/html"&gt;  
+    &lt;ui:define name="content"&gt;  
+        &lt;h1&gt;Hello World&lt;/h1&gt;  
+        &lt;p&gt;Your CDI bean  &lt;code&gt;HelloWorld&lt;/code&gt; says &lt;span style="color: blue;"&gt;#{helloWorld.text}&lt;/span&gt; using the unified EL.&lt;/p&gt;  
+        ...  
+    &lt;/ui:define&gt;  
+&lt;/ui:composition&gt;
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>Build and package the project and run it on an embedded version of GlassFish V3:</p>
+
+    <div class="highlighter-rouge">
+<pre class="highlight"><code>mvn package embedded-glassfish:run
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>Access <a href="http://localhost:8080/projectname">http://localhost:8080/projectname</a></p>
+
+    <p>You’ll see, “Your CDI bean <strong>HelloWorld</strong> says Hello World! using the Unified EL.” You’ll also find a 
+demonstration of the JSF 2 / Bean Validation integration and links to learn more.</p>
+  </li>
+  <li>
+    <p>You can also deploy the archive target/myproject.war to a standalone Java EE 6 application server (Full or Web Profile).</p>
+  </li>
+</ol>
+
+<p>Don’t go yet! Java EE isn’t the only target platform that integrates well with JSF 2. After seeing examples that 
+use two platform bean containers, you’ll now see how you can alternatively plug JSF 2 into Spring.</p>
+
+<h2 id="creating-a-jsf-2-and-spring-project">
+<a name="TOC-Creating-a-JSF-2-and-Spring-project"></a>Creating a JSF 2 and Spring project</h2>
+
+<p>Instructions coming soon.</p>
+
+<h2 id="next-steps">
+<a name="TOC-Next-steps:">Next steps</a>:</h2>
+
+<ol>
+  <li>
+    <p>Check out the JSF tag libraries:<br>
+<a href="https://javaserverfaces.dev.java.net/nonav/docs/2.0/vdldocs/facelets/index.html">https://javaserverfaces.dev.java.net/nonav/docs/2.0/vdldocs/facelets/index.html</a></p>
+  </li>
+  <li>
+    <p>Read the JavaDocs:<br>
+<a href="https://javaserverfaces.dev.java.net/nonav/docs/2.0/javadocs/index.html">https://javaserverfaces.dev.java.net/nonav/docs/2.0/javadocs/index.html</a></p>
+  </li>
+  <li>
+    <p>Read the Ajax and JS Docs:<br>
+<a href="https://javaserverfaces.dev.java.net/nonav/docs/2.0/jsdocs/index.html">https://javaserverfaces.dev.java.net/nonav/docs/2.0/jsdocs/index.html</a></p>
+  </li>
+  <li>
+    <p>Get Plugins: (The plugin listing is currently hosted at JSFCental.com)<br>
+<a href="http://jsfcentral.com/products/">http://jsfcentral.com/products/</a></p>
+  </li>
+</ol>
+
+    </div>
+  </div>
+</div>
+
+<div class="full">
+  <div class="row">
+    <p class="trademark">Java and JavaServer Faces are trademarks or registered trademarks of Oracle and/or its affiliates.
+
+    http://www.javaserverfaces.org is maintained and operated by members of the JSR-314 (JSF 2.0) Expert Group and
+    dedicated community contributors.
+    Got a suggestion to make javaserverfaces.org better? Is there a page we forgot? Please post your suggestion in the 
+      <a href="http://wiki.jcp.org/boards/index.php?b=jsr-314-public" target="_blank">community forums</a>.</p>
+  </div>
+</div>
+
+
+
+    </div>
+
+    <div id="footer">
+  <div class="three spacing"></div>
+  <div class="row">
+    <div class="large-3 medium-3 columns">
+      <h1>
+        <a href="index.html">
+          <img alt="" src="http://localhost:4000/images/logo-grey.png">
+        </a>
+      </h1>
+      <p>©2017 JavaServerFaces.com. Some rights reserved.</p>
+      <div class="spacing"></div>
+      <div class="spacing"></div>
+    </div>
+    <div class="large-3 medium-3 columns">
+      <div class="spacing"></div>
+      <div class="links">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="books">Books</a></li>
+          <li><a href="http://jsfcentral.com/products/">Libraries &amp; Extensions</a></li>
+          <li><a href="http://www.javaserverfaces.com/faq">FAQ</a></li>
+          <li><a href="http://java.sun.com/javaee/javaserverfaces/reference/api/index.html">JSF (1.1 - 2.0) API Docs</a></li>
+        </ul>
+      </div>
+      <div class="spacing"></div>
+    </div>
+    <div class="large-3 medium-3 columns">
+      <div class="spacing"></div>
+      <div class="links">
+        <h4>Recent posts</h4>
+        <ul>
+          
+            <li><a href="/events/2009/12/10/jsfdays-2010.html">JSFDays 2010</a></li>
+          
+            <li><a href="/events/2009/11/11/the-second-jsf-summit.html">The Second JSF Summit</a></li>
+          
+        </ul>
+      </div>
+      <div class="spacing"></div>
+    </div>
+    <div class="large-3 medium-3 columns">
+      <div class="spacing"></div>
+      <ul class="socials">
+        <li>
+          <a href="https://github.com/jsf-site/">
+            <i class="fa fa-github"></i>
+          </a>
+        </li>
+      </ul>
+      <div class="spacing"></div>
+    </div>
+  </div>
+  <div class="two spacing"></div>
+</div>
+<script src="/javascripts/jquery.countTo.js" type="text/javascript"></script>
+<script src="/javascripts/jquery.appear.js" type="text/javascript"></script>
+<script src="/javascripts/jquery.validate.js" type="text/javascript"></script>
+<script src="/javascripts/jquery.sequence-min.js" type="text/javascript"></script>
+<script src="/javascripts/jquery.easing.1.3.js" type="text/javascript"></script>
+<script src="/javascripts/app.js" type="text/javascript"></script>
+
+  </body>
+
+</html>

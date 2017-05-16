@@ -1,0 +1,51 @@
+- cover: images/books/completejsf2.jpg
+  title: JavaServer Faces 2.0, The Complete Reference
+  author: Ed Burns (JSR-314 co-spec lead) with Neil Griffin (JSR-314 EG member)
+  publisher: McGraw-Hill
+  isbn-10: 0071625097
+  isbn-13: 978-0071625098
+  published: true
+  desc: >
+    Fully revised and updated for all of the massive changes in JavaServer Faces 2.0, this bestselling guide covers
+    every aspect of the web application architecture of the future. JavaServer Faces 2.0:
+    The Complete Reference explains in full detail how to deliver feature-rich, cross-browser Internet applications.
+
+    This comprehensive resource begins with a fast-paced introduction so you can get your first JSF application
+    up and running quickly. Then, each aspect of JSF is examined in depth, including the request processing lifecycle,
+    page navigation, component development, Ajax, validation, internationalization, and security.
+    A complete sample JSF application is easily used as a model for building custom applications
+    with all source code available for download.
+- cover: images/books/corejsf3.jpg
+  title: Core JavaServer Faces (3rd Edition)
+  author: David Geary (JSR-314 EG member) and Cay S. Horstmann
+  publisher: McGraw-Hill
+  isbn-10: 0137012896
+  isbn-13: 978-0137012893
+  published: true
+  desc: >
+     The #1 guide to rapid user interface development with JSF - now fully updated for the powerful new JSF 2.0!
+
+
+     * Authored by two of the world's most respected Java experts.
+     * Shows web developers how to automate low-level details, eliminate unnecessary complexity in server-side
+     development,and write superior JSF 2.0 production code.
+     * Systematically covers JSF 2.0's powerful Ajax support, open source innovations, and new feature set.
+- cover: images/books/seaminaction.jpg
+  title: Seam in Action
+  author: Dan Allen (JSR-314 EG member)
+  publisher: Manning
+  isbn-10: 1933988401
+  isbn-13: 978-1933988405
+  published: true
+  desc: >
+    Offers an objective and in-depth look at Seam, an integration framework that combines many aspects of Java EE,
+    corrects shortcomings in its technologies (JSF, EJB, JPA) and fills in gaps where they interface,
+    all while reducing the platform's complexity. This feat is achieved through a consistent use of stateful
+    components, annotations, the EL, and XHTML-based templates, giving you maximum distance out of every keystroke.
+    As you advance through this book, you'll find your application and understanding of enterprise Java mature
+    quickly as you master technologies you thought you'd never have time to learn.
+
+
+    This book has historical significance because it helped to identify many of the shortcomings in JSF 1.2
+    that Seam addressed and explained the reasoning behind several of the features that were introduced into
+    JSF 2.0, most notably view parameters, conditional navigation and bookmarkable links.

@@ -1,0 +1,65 @@
+---
+layout: default
+---
+
+<div class='full parallax' style='background-image: url(../images/@stock/about-us.jpg); color: #fff;'>
+  <div class='row'>
+    <div class='twelve columns'>
+      {% include section-header.html title=page.title color="#fff" tagline=page.tagline class="big" %}
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>
+
+<div class='full'>
+  <div class='row'>
+    <div class='small-12 medium-12 large-12 columns'>
+      {{ content }}
+    </div>
+    <div class='small-12 medium-12 large-12 columns'>
+      {{ page.section-id }}
+    </div>
+  </div>
+
+  <div class='two spacing'></div>
+</div>
+
+<div class='full'>
+  <div class='row'>
+    {% for subPage in site.pages %}
+      {% if subPage.layout == 'page' and page.section_id == subPage.section_id%}
+        <div class='small-6 medium-3 large-3 columns'>
+          <div class='mod modTeamMember'>
+            <div class='member'>
+              <a href="{{subPage.url}}">
+                <img class="avatar" alt="" src="/images/@stock/member-2.jpg" />
+                <h3 style="position: absolute; width:100%; top: 0;
+                    padding: 2px; text-align: center;
+                    background-color: rgba(255,255,255,.4);">{{subPage.title}}</h3>
+                <div class='overlay'>
+                    <div class='intro'>
+                      <p class="trademark">{{subPage.tagline}}</p>
+                    </div>
+                </div>
+              </a>
+            </div>
+            <div class='two spacing'></div>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+<div class='full'>
+  <div class='row'>
+    <p class="trademark">Java and JavaServer Faces are trademarks or registered trademarks of Oracle and/or its affiliates.
+
+      http://www.javaserverfaces.org is maintained and operated by members of the JSR-314 (JSF 2.0) Expert Group and
+      dedicated community contributors.
+      Got a suggestion to make javaserverfaces.org better? Is there a page we forgot? Please post your suggestion in the 
+      <a href="http://wiki.jcp.org/boards/index.php?b=jsr-314-public" target="_blank">community forums</a>.</p>
+  </div>
+</div>
+
+
