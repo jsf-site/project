@@ -22,7 +22,7 @@ gems: [
 ]
 
 # Site settings
-title: JavaServer Faces.org
+title: Java Server Faces
 email: info@javaserverfaces.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
