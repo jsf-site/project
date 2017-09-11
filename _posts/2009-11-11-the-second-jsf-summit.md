@@ -1,4 +1,5 @@
 ---
+layout: post
 title: The Second JSF Summit
 date:   2009-11-11 08:19:12
 categories: events
