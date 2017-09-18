@@ -2,13 +2,7 @@
 layout: default
 section_id: home
 slides:
-  - bg: images/stock/hero.png
-    small_title:
-      klass: bottom-to-top
-      text: The place for more on
-    title:
-      klass: bottom-to-top
-      text: JavaServer Faces.com
+  - bg: images/stock/hero-light.jpg
     buttons:
       klass: bottom-to-top
       items:
@@ -77,12 +71,12 @@ services:
 
 <div class='mod modDefaultSlider'>
   <div class='sequence' data-autostop='on' data-timeout='0'>
-    <a class='sequence-prev' href='javascript:void(0);'>
+    <!--<a class='sequence-prev' href='javascript:void(0);'>
       <span></span>
     </a>
     <a class='sequence-next' href='javascript:void(0);'>
       <span></span>
-    </a>
+    </a>-->
     <ul class='sequence-pagination'>
       {% for slide in page.slides %}
         {% if forloop.first %}
