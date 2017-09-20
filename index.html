@@ -77,7 +77,7 @@ services:
     <a class='sequence-next' href='javascript:void(0);'>
       <span></span>
     </a>-->
-    <ul class='sequence-pagination'>
+    <!--<ul class='sequence-pagination'>
       {% for slide in page.slides %}
         {% if forloop.first %}
           {% assign class = 'current' %}
@@ -86,7 +86,7 @@ services:
         {% endif %}
         <li class="{{class}}"></li>
       {% endfor %}
-    </ul>
+    </ul>-->
     <ul class='sequence-canvas'>
       {% for slide in page.slides %}
         {% if forloop.first %}
@@ -154,7 +154,7 @@ services:
 
 <div class="spacing"></div>
 
-<div class="full" style="background: #f5f5f5;">
+<!--<div class="full" style="background: #f5f5f5;">
   <div class="row">
     <div class="large-12 columns">
       {% include section-header.html title="Our works" %}
@@ -186,10 +186,9 @@ services:
       {% endfor %}
     </ul>
   </div>
-</div>
+</div>-->
 
-
-<div class='full'>
+<!--<div class='full'>
   <div class='row'>
     <div class='large-12 columns'>
       {% include section-header.html title="Our services" %}
@@ -222,18 +221,16 @@ services:
     </div>
   </div>
   <div class='spacing'></div>
-</div>
+</div>-->
 
 
-<div class='full parallax' style='background-image: url(images/@stock/milestone-bg.jpg); color: #fff;'>
+<div class='full parallax' style='background-image: url(images/stock/parallax-meeting.jpg); color: #fff;'>
   <div class='row'>
     <div class='large-12 columns'>
-      {% include section-header.html title="Parallax effect" color="#fff" %}
+      {% include section-header.html title="" color="#fff" %}
       <div class='spacing'></div>
       <p class='centered-text' style='color: #ccc;'>
-        Dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet,
-        consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-        volutpat consectetuer sit amet magna adipiscing.
+
       </p>
       <div class='two spacing'></div>
     </div>
@@ -253,7 +250,7 @@ services:
   <div class='two spacing'></div>
 </div>
 
-<div class='full'>
+<!--<div class='full'>
   <div class='row'>
     <div class='large-12 columns'>
       {% include section-header.html title="Our team" %}
@@ -294,12 +291,12 @@ services:
       </div>
     {% endfor %}
   </div>
-</div>
+</div>-->
 
 <div class='full' style='background: #f5f5f5'>
   <div class='row'>
     <div class='large-12 columns'>
-      {% include section-header.html title="Our recent posts" %}
+      {% include section-header.html title="Recent Posts" %}
       <div class='spacing'></div>
       <p>
         Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
@@ -360,11 +357,7 @@ services:
 
 </div>
 
-
-{% include our-customers.html %}
-
-
-<div class='full no-padding' style='background: #fff'>
+<!--<div class='full no-padding' style='background: #fff'>
   <div class='two spacing'></div>
   <div class='mod modCallToAction'>
     <div class='row'>
@@ -377,4 +370,4 @@ services:
     </div>
   </div>
   <div class='spacing'></div>
-</div>
+</div>-->
