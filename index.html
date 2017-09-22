@@ -296,14 +296,9 @@ services:
 <div class='full' style='background: #f5f5f5'>
   <div class='row'>
     <div class='large-12 columns'>
-      {% include section-header.html title="Recent Posts" %}
+      {% include section-header.html title="Recent Posts"%}
       <div class='spacing'></div>
-      <p>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-        laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet,
-        consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-        volutpat consectetuer sit amet magna adipiscing.
-      </p>
+
       <div class='two spacing'></div>
     </div>
   </div>
@@ -324,7 +319,7 @@ services:
           {% endfor %}
           <div class='content'>
             <p class='date'>{{post.date | date: "%B %d, %Y" }}</p>
-            <h4><a href="#">{{post.title}}</a></h4>
+            <h4><a href="{{post.url}}">{{post.title}}</a></h4>
             <p>{{post.excerpt}}</p>
             <!--
               <div class="tags">
@@ -349,7 +344,7 @@ services:
   <div class='row'>
     <div class='large-12 columns'>
       <p class='centered-text'>
-        <a class='button' href='blog.html'>See more posts</a>
+        <a class='button' href='/news'>See more posts</a>
       </p>
     </div>
   </div>

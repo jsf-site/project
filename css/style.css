@@ -1471,7 +1471,7 @@ form input.error, form textarea.error {
 }
 
 .modBlogPost.big {
-  width: 97%;
+  width: 100%;
 }
 .modBlogPost.big .content {
   padding: 50px 40px;
@@ -3858,4 +3858,8 @@ img.book {
   .modFullscreenSlider .fullscreen_slideshow .video_wrap {
     display: none;
   }
+}
+
+.title-shadow {
+  text-shadow: -3px 0px 8px rgba(0, 0, 0, 1);
 }
