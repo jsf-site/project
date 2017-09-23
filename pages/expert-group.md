@@ -4,6 +4,8 @@ title: Expert Group
 tagline: The JavaServer Faces Ninjas
 section_id: specification
 permalink: expert-group
+image: expert-group.jpg
+avatar: expert-group-250.jpg
 ---
 
 JavaServer Faces (JSF) is governed by an Expert Group (EG) that operates under the Java Community Process (JCP) and 

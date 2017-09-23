@@ -4,6 +4,7 @@ title: Communicate
 tagline: Get involved with JavaServer Faces
 section_id: communicate
 permalink: communicate
+image: communicate.jpg
 ---
 
 ### Mailing Lists: 

@@ -4,6 +4,8 @@ title: Blogs
 tagline: Read about JSF from the community
 section_id: communicate
 permalink: blogs
+image: blogs.jpg
+avatar: blogs-250.jpg
 ---
 
 There are many active, informative bloggers in the JSF community:

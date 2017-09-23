@@ -4,6 +4,8 @@ title: Give Feedback
 tagline: Let others know what's in your head
 section_id: communicate
 permalink: feedback
+image: feedback.jpg
+avatar: feedback-250.jpg
 ---
 
 http://www.javaserverfaces.org is maintained and operated by members of the [JSR-314 (JSF 2.0)

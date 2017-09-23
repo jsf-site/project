@@ -5,7 +5,7 @@
   path: get-started
   section_id: get-started
 - name: Communicate
-  path: communicate.html
+  path: communicate
   section_id: communicate
   children:
       - name: Issue Trackers

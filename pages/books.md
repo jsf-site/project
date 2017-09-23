@@ -4,6 +4,7 @@ title: Books
 tagline: Learn more about JSF
 section_id: books
 permalink: books
+image: books.jpg
 ---
 
 Choose from the following collection of books to learn about JavaServer Faces straight from the source.

@@ -4,6 +4,7 @@ title: Specification
 tagline: The JSR Specification
 section_id: specification
 permalink: specification
+image: specification.jpg
 ---
 
 JSF is _unlike_ other web frameworks because it's not a library, but rather a specification for a library. It's 

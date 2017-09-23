@@ -2,10 +2,10 @@
 layout: default
 ---
 
-<div class='full parallax' style='background-image: url(../images/@stock/about-us.jpg); color: #fff;'>
+<div class='full parallax' style='background-image: url(../images/stock/{{page.image}}); color: #fff;'>
   <div class='row'>
     <div class='twelve columns'>
-      {% include section-header.html title=page.title color="#fff" tagline=page.tagline class="big" %}
+      {% include section-header.html title=page.title color="#fff" tagline=page.tagline class="big title-shadow" %}
     </div>
   </div>
   <div class='four spacing'></div>
@@ -32,10 +32,10 @@ layout: default
           <div class='mod modTeamMember'>
             <div class='member'>
               <a href="{{subPage.url}}">
-                <img class="avatar" alt="" src="/images/@stock/member-2.jpg" />
+                <img class="avatar" alt="" src="/images/stock/{{subPage.avatar}}" />
                 <h3 style="position: absolute; width:100%; top: 0;
                     padding: 2px; text-align: center;
-                    background-color: rgba(255,255,255,.4);">{{subPage.title}}</h3>
+                    background-color: rgba(255,255,255,.6);">{{subPage.title}}</h3>
                 <div class='overlay'>
                     <div class='intro'>
                       <p class="trademark">{{subPage.tagline}}</p>

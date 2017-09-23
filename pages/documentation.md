@@ -4,6 +4,8 @@ title: Documentation
 tagline: May the source be with you
 section_id: documentation
 permalink: documentation
+image: documentation.jpg
+avatar: documentation-250.jpg
 ---
 
 ## UI Development Docs:

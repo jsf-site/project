@@ -4,6 +4,7 @@ title: Get Started
 tagline: First steps in JavaServer Faces
 section_id: get-started
 permalink: get-started
+image: get-started.jpg
 ---
 
 The fastest way to get started with a JSF project is to use a [Maven archetype](http://maven.apache.org/plugins/maven-archetype-plugin/). 

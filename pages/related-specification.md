@@ -4,6 +4,8 @@ title: Related Specifications
 tagline: The JSR
 section_id: specification
 permalink: related-specifications
+image: specification.jpg
+avatar: specification-250.jpg
 ---
 
 There are certain concerns that involve JSF that are too broad to deal with in the JSF specification itself. 
