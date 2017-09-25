@@ -5,4 +5,9 @@
   {% if include.tagline %}
     <h3 class='centered-text {{include.class}}' style='font-weight: bold; color: {{include.color}};'>{{include.tagline}}</h3>
   {% endif %}
+  {% if include.edit %}
+    <a href="{{ site.github.repository_url }}/edit/{{ site.branch }}/{{ page.path }}">
+      <h4 class="centered-text">Edit on GitHub</h4>
+    </a>
+  {% endif %}
 </div>
